@@ -60,3 +60,44 @@ nano array1.c
 cd sept22
 ls
 clear
+cd sept22
+ls
+nano p3.c
+ls
+cd ..
+git push
+git push --set-upstream origin master
+git push -u -f origin master
+git push
+exit
+git push
+cd sept22
+git push
+cd ..
+ls
+git init
+cd .git
+ls
+cat HEAD
+cd description
+cat description
+cd description
+cat index
+ls
+cat config
+cd info
+ls
+cd ..
+cd refs
+ls
+cd ..
+cd branches
+ls
+cd ..
+ls
+cd ..
+ls -a
+cd .profile
+cat .profile
+clear
+ls

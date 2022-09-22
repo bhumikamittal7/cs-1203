@@ -11,4 +11,6 @@ printf("%p \n", a);
 
 x = *(a+1);
 printf("%d \n", x);
+
+free(a); //make sure to do it after malloc - to free the RAM
 }
