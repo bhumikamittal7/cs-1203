@@ -101,3 +101,55 @@ cd .profile
 cat .profile
 clear
 ls
+cd sept22
+nano array1.c
+ls
+nano p1.c
+gcc -o p1 p1.c
+nano p1.c
+gcc -o p1 p1.c
+nano p1.c
+gcc -o p1 p1.c
+nano p1.c
+gcc -o p1 p1.c
+./p1
+nano p12.c
+nano p2.c
+gcc -o p2 p2.c
+./p2
+nano p2.c
+gcc -o p2 p2.c
+./p2
+nano p3.c
+gcc -o p3 p3.c
+nano p3.c
+gcc -o p3 p3.c
+./p3
+nano p3.c
+gcc -o p3 p3.c
+./p3
+nano p3.c
+gcc -o p3 p3.c
+nano p3.c
+gcc -o p3 p3.c
+nano p3.c
+gcc -o p3 p3.c
+./p3
+cd ..
+git init
+git add .
+git commit -m "Adding files"
+git config --global user.email "bhumika.mittal_ug24@ashoka.edu.in"
+git config --global user.name bhumikamittal7
+git commit -m "Adding files"
+git remote add origin https://github.com/bhumikamittal7/cs-1203
+git push -u -f origin master
+git add .
+git commit -m "Adding files"
+git remote add origin https://github.com/bhumikamittal7/cs-1203.git
+git push -u -f origin master
+git config --global user.name
+git config user.name "bhumikamittal7"
+git config --global user.name
+git push -u -f origin master
+cd sept22
