@@ -153,3 +153,113 @@ git config user.name "bhumikamittal7"
 git config --global user.name
 git push -u -f origin master
 cd sept22
+git add --all
+git commit -m "Adding existing files"
+git remote add origin git@github.com:bhumikamittal7/cs-1203
+git remote add origin git@github.com:bhumikamittal7/cs-1203.git
+git push -u -f origin main
+git push
+git checkout master
+git checkout main
+git merge main
+git merge master
+ls
+git merge master
+git push
+git remote add origin git@github.com:bhumikamittal7/cs-1203.git
+git push
+git checkout master
+git commit -m "Adding existing files"
+git add --all
+git commit -m "Adding existing files"
+git checkout master
+git push
+git pull
+ld
+ls
+cat README.md
+git pull
+git add --all
+git commit -m "Adding existing files"
+git push
+exit
+git push
+ls
+mkdir sept26
+cd sept26
+ls
+nano hello.c
+gcc -o hello hello.c
+./hello
+gcc -o hello hello.c
+nano hello.c
+gcc -o hello hello.c
+./hello
+nano hello.c
+gcc -o hello hello.c
+./hello
+nano hello.c
+gcc -o hello hello.c
+./hello
+nano hello.c
+gcc -o hello hello.c
+./hello
+nano hello.c
+gcc -o hello hello.c
+nano hello.c
+gcc -o hello hello.c
+./hello
+nano hello.c
+nano p2.c
+gcc -o p2 p2.c
+./p2
+cd sept22
+ls
+cd ..
+cd sept26
+ls
+nano p2.c
+gcc -o p2 p2.c
+./p2
+nano p2.c
+gcc -o p2 p2.c
+nano p2.c
+gcc -o p2 p2.c
+./p2
+nano p2.c
+gcc -o p2 p2.c
+nano p2.c
+gcc -o p2 p2.c
+./p2
+nano p2.c
+gcc -o p2 p2.c
+./p2
+nano p2.c
+gcc -o p2 p2.c
+./p2
+cd sept26
+ls
+nano p2.c
+cd sept26
+nano p3.c
+gcc -o p3 p3.c
+nano p3.c
+gcc -o p3 p3.c
+./p3
+cd sept26
+nano p3.c
+gcc -o p3 p3.c
+./p3
+nano p3.c
+gcc -o p3 p3.c
+./p3
+nano p3.c
+gcc -o p3 p3.c
+./p3
+cd sept26
+ls
+cat p2.c.save
+cat p2.c
+cat p3
+clear
+cat p3.c
