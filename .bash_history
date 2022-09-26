@@ -263,3 +263,14 @@ cat p2.c
 cat p3
 clear
 cat p3.c
+git add --all
+git push
+git add --all
+git add . && git commit -m "commit for sept26"
+git push
+nano p4.c
+ls
+mv p4.c sept26
+ls
+cd sept26
+ls
