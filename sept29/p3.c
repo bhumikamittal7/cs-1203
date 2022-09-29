@@ -1,4 +1,4 @@
-// insert and delete in a linked list
+// insert and delete in a double-ly linked list
 
 struct node{
     int val;
@@ -10,3 +10,4 @@ struct node{
 //C->prev goes to A
 //B->next->prev = B->prev
 //Delete B
+
