@@ -66,5 +66,21 @@ HOW TO DETECT A LOOP IN A LINKED LIST
         }
         count++;
     }
+    struct node *t;
+    struct node *r;
+    t =r = head;
+
+    while (r != NULL && r->next != NULL){
+        t = t->next;
+        r = r->next->next;
+        if (t == r){
+            printf("Loop detected");
+            break;
+        }
+    }
+    if (r == NULL || r->next == NULL){
+        printf("No loop detected");
+    }
+}
 
 }
