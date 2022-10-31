@@ -38,22 +38,17 @@ int partition1(int *a, int start, int stop){
     int pivot = a[start];
     int i = start+1;
     int j = stop;
-    int temp;
-    while (i < j){
-        while (a[i] <= pivot && i < stop){
-            i++;
-        }
-        while (a[j] > pivot){
+
+    while (i <= j){
+        if (a[i] > pivot){
+            swap (a, i, j);
             j--;
         }
-        if (i < j){
-            temp = a[i];
-            a[i] = a[j];
-            a[j] = temp;
+        else { 
+            i++;
         }
     }
-    a[start] = a[j];
-    a[j] = pivot;
+    swap (a, start, j);
     return j;
 }
 
