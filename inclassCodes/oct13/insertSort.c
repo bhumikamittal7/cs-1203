@@ -1,6 +1,8 @@
 /* Insertion Sort 
 there is a list - [977, 305, 7, 885, 428, 819, 929, 118, 640]
 whenever you get the element - put it at the right place in the list
+
+Insert Sort with Linked List
 */
 
 
