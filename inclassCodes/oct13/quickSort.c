@@ -34,6 +34,29 @@ Best case: you pick the middle element every single time - nlogn
 #include <stdio.h>
 #include <stdlib.h>
 
+int partition1(int *a, int start, int stop){
+    int pivot = a[start];
+    int i = start+1;
+    int j = stop;
+    int temp;
+    while (i < j){
+        while (a[i] <= pivot && i < stop){
+            i++;
+        }
+        while (a[j] > pivot){
+            j--;
+        }
+        if (i < j){
+            temp = a[i];
+            a[i] = a[j];
+            a[j] = temp;
+        }
+    }
+    a[start] = a[j];
+    a[j] = pivot;
+    return j;
+}
+
 int partition(int *a, int start, int end){
     int pivot = a[end];
     int pIndex = start;

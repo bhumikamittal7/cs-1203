@@ -1,0 +1,8 @@
+1. insert sort with linked list
+2. version of select sort
+3. findAddressofMax code and select sort with it 
+        - Write a function to find the address of the max element in an array
+        - Write a function to find the address of the max element in a linked list
+4. write a version of quick sort - array and linked list
+5. Study markov chebyshev inequality (become a better human) and central limit theorem
+6. 
