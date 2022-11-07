@@ -17,6 +17,10 @@ struct nodeType{
     int val;
     struct nodeType *left;      //left child - smaller than parent
     struct nodeType *right;     //right child - larger than parent
+    struct nodeType *parent;
+    int height;                 //if something is a leaf node, set height to 0 or maybe -1
+    //your height is +1 the height of your taller child - we are kinda looking for the longest path down the tree
+    //if you are a leaf node, your height is 0
 };
 
 typedef struct nodeType *NodeAddress;
