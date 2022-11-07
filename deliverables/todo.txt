@@ -9,3 +9,13 @@
 #=================================================================================================================================
 7. Check classroom messages for more
 #=================================================================================================================================
+
+- binary search tree deletion (SUPER IMPORTANT)
+- weird operation (paritial reverse and all) with linked list
+- 
+
+*PROJECTS* 
+- sudoku checker using hash table (given a sudoku board, check if it is valid)
+#=================================================================================================================================
+
+- find predecessor and successor of any element in the bst 
