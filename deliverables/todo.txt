@@ -19,3 +19,5 @@
 #=================================================================================================================================
 
 - find predecessor and successor of any element in the bst 
+- write the code for AVL tree insertion and deletion and also check if the tree is balanced or not
+- write the code for AVL tree left and right rotation
