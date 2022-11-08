@@ -51,7 +51,7 @@ if (!x) return NULL;
 if (x -> left )
     return findMax (x -> left);
 
-NodeAddress y = x -> parent ;
+NodeAddress y = x -> parent;
 while (y && x == y -> left )
 {
     x = y;
