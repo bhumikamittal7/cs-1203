@@ -11,13 +11,33 @@
 #=================================================================================================================================
 
 - binary search tree deletion (SUPER IMPORTANT)
-- weird operation (paritial reverse and all) with linked list
-- 
+- weird operation (paritial reverse and all) with linked list 
 
 *PROJECTS* 
-- sudoku checker using hash table (given a sudoku board, check if it is valid)
+- 
 #=================================================================================================================================
 
 - find predecessor and successor of any element in the bst 
 - write the code for AVL tree insertion and deletion and also check if the tree is balanced or not
 - write the code for AVL tree left and right rotation
+
+#=================================================================================================================================
+
+- makefile (rules based) -- today's pain, tomorrow's gain
+- it allows us to automate the process of compiling and linking the code
+- it is a file that contains a set of directives that specify how to compile and link a program
+- helps in remembering the dependencies between the files
+- multiple executabels and libraries can be created from a single makefile
+
+- debugging (gdb) - gdb is a debugger that allows you to see what is going on "inside" another program while it executes -- or what another program was doing at the moment it crashed
+- #include<assert.h> - assert(condition) - if condition is false, the program will terminate and print an error message. Otherwise works fine without printing useless stuff
+
+#=================================================================================================================================
+gdb commands - help , break, quit, list, next, step, finish, print, display
+if you are doing something recurrsive, bt (backtrace) could be helpful
+
+valgrind - a tool for memory debugging, memory leak detection, and profiling
+#=================================================================================================================================
+Fuction Pointer
+Dispatch tables
+#=================================================================================================================================
