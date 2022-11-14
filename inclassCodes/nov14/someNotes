@@ -13,5 +13,9 @@ Theory for written exam:
         Describe what you will do when a car wants to park, and when a car wants to leave.
         JUST DEFINE WHAT WE NEED TO DO CLEARLY.
 
-    -  Strected out binary search tree (left-root-right traversal of a tree. (inorder traversal))
-    - 
+    -  Variant of a data structure we have already seen.
+        - Strected out binary search tree (left-root-right traversal of a tree. (inorder traversal)).
+
+#========== FOR CODING ===================
+Penalised for bad runtime!!
+- always go for better solution
