@@ -5,10 +5,13 @@ Theory for written exam:
 1. MCQ type questions (for code type question, what output will it give. This gives seg fault, why?)
 2. non-MCQ stuff:
     - when is which data struture used? and when is it useful? not useful?
+
     - some puzzle kinda stuff
         - car park: everyone wanna park at the closest empty location. keep track of the empty locations, earliest available slot. Also track of where is the car parked (location) - every car has unique id. 
 
         ANS: Min-heap for empty locations. Extract min element
         Describe what you will do when a car wants to park, and when a car wants to leave.
         JUST DEFINE WHAT WE NEED TO DO CLEARLY.
-    -  
+
+    -  Strected out binary search tree (left-root-right traversal of a tree. (inorder traversal))
+    - 
