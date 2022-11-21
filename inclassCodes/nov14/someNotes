@@ -16,6 +16,6 @@ Theory for written exam:
     -  Variant of a data structure we have already seen.
         - Strected out binary search tree (left-root-right traversal of a tree. (inorder traversal)).
 
-#========== FOR CODING ===================
+#========== FOR CODING EXAM ===================
 Penalised for bad runtime!!
 - always go for better solution

@@ -46,7 +46,7 @@ NodeAddress search2(NodeAddress root, int val){
 //insert a node into the tree
 NodeAddress insert(NodeAddress root, int val){
     if(root == NULL){
-        root = (NodeAddress)malloc(sizeof(struct nodeType));
+        root = malloc(sizeof(struct nodeType));
         root->val = val;
         root->left = NULL;
         root->right = NULL;
