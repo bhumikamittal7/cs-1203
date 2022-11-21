@@ -32,38 +32,41 @@ else
     c = c -> next[0]
 
 Randomize the jump size - if I don't know what I am doing, then my enemy can defientlyn never know what I am doing
+
+x = (0, 1)
+numE = 1
+if (x<0.2)
+    numE += 1
+if (x<0.1)
+    numE += 1
 */
 
 
 
-
-
-
-
 NodeAddress *createNode(int val, int height) {
-    NodeAddress *newNode = (NodeAddress *)malloc(sizeof(NodeAddress));
-    newNode->val = val;
-    newNode->height = height;
-    newNode->next = (NodeAddress **)malloc(sizeof(NodeAddress *) * height);
-    for (int i = 0; i < height; i++) {
-        newNode->next[i] = NULL;
+    NodeAddress *newNode = (NodeAddress *)malloc(sizeof(NodeAddress));  //create a new node and allocate memory for it
+    newNode->val = val; //set the value of the new node
+    newNode->height = height;   //set the height of the new node
+    newNode->next = (NodeAddress **)malloc(sizeof(NodeAddress *) * height);     //allocate memory for the next array
+    for (int i = 0; i < height; i++) {  //set all the pointers in the next array to NULL
+        newNode->next[i] = NULL;    //set the next pointer to NULL
     }
     return newNode;
 }
 
 void insert(NodeAddress **root, int val, int height) {
-    NodeAddress *x = *root;
-    NodeAddress *y = NULL;
-    NodeAddress *z = createNode(val, height);
-    while (x) {
-        y = x;
-        if (val < x->val) {
-            x = x->next[0];
-        } else {
+    NodeAddress *x = *root; //set x to the root
+    NodeAddress *y = NULL;  //set y to NULL
+    NodeAddress *z = createNode(val, height);   //create a new node with the value val and height height
+    while (x != NULL) { //while x is not NULL
+        y = x;  //set y to x
+        if (val < x->val) { //if the value of the new node is less than the value of x
+            x = x->next[0]; //set x to the next pointer of x
+        } else {    //if the value of the new node is greater than or equal to the value of x
             x = x->next[0];
         }
     }
-    if (!y) {
+    if (y != NULL) {
         *root = z;
     } else if (val < y->val) {
         y->next[0] = z;

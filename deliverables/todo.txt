@@ -41,3 +41,6 @@ valgrind - a tool for memory debugging, memory leak detection, and profiling
 Fuction Pointer
 Dispatch tables
 #=================================================================================================================================
+
+Learn Skip list
+Learn Quad Trees
