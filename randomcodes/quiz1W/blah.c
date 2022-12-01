@@ -5,7 +5,8 @@
 int main(){
 int *x;
 int *y;
-*x = 1;
-*y = *x;
+*x = 1; //the pointer x is not pointing to anything
+*y = *x;    //the pointer y is not pointing to anything
+
 printf("%d", *y);
 }
