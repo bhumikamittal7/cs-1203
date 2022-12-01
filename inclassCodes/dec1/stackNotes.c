@@ -59,4 +59,3 @@ Infix: 5 + 4 * 9 - 2^3              (left-root-right)
 Postfix: 5 4 + 9 2 3 ^ - *          (left-right-root)
 Prefix: * + 5 4 - 9 ^ 2 3           (root-left-right)
 */
-
