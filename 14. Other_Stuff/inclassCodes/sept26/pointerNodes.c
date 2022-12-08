@@ -23,8 +23,7 @@ int main(int argc, char **argv){
 
 		//if this is first time 
 		//or else
-
-
+		
 		i = i+1;
 		scanf("%d", &val);
 

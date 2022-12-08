@@ -2,7 +2,8 @@
   "C_Cpp.errorSquiggles": "Disabled",
   "files.associations": {
     "stdio.h": "c",
-    "time.h": "c"
+    "time.h": "c",
+    "stdlib.h": "c"
   },
   "C_Cpp_Runner.cCompilerPath": "gcc",
   "C_Cpp_Runner.cppCompilerPath": "g++",

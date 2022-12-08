@@ -46,4 +46,3 @@ sift down but ignore 99, the reheapified heap would be -
 3 20 11 4 99
 */
 
-//change made
